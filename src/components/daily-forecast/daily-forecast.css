@@ -1,0 +1,62 @@
+:host{
+  max-width: 600px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+.weather-day{
+  text-align: center;
+  display:flex;
+  width:100%;
+  align-items: center;
+}
+.weather-day .base{
+  width: 100%;
+}
+.weather-day .extra{
+  display:none;
+}
+#show .base, .show .base, :host(.show) .extra{
+  width:50%;
+}
+#show .extra, .show .extra, :host(.show) .extra{
+  display: block;
+  width:50%;
+}
+.weather-day p{
+  margin:0.25em;
+  font-size:0.9em;
+  text-align: left;
+  font-weight: 300;
+}
+.weather-day p#date{
+  text-align:center;
+  font-size:1.2em;
+  margin-top: -5%;
+}
+.weather-day img{
+  width:100%;
+  height:auto;
+  vertical-align: middle;
+}
+.weather-day img.icon{
+  width:30px;
+  margin-right:5px;
+}
+.weather-day .extra p{
+  display:flex;
+  align-items: center;
+}
+@media(max-width: 1000px){
+  .weather-day p#date{
+    font-size:0.9em;
+  }
+}
+@media(min-width:992px){
+  .weather-day img{
+    width:80%
+  }
+  .weather-day p#date{
+    font-size:0.9em;
+  }
+}
