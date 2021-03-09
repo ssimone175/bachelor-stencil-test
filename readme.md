@@ -1,4 +1,7 @@
-# Stencil App Starter
+# Stencil Web Components Test
+This project was created with the help of the Stencil App Startes. These components are part of a Bachelor Thesis comparing Web Components to the React library. A Web Component was integrated in this example project. You can find the original components under the following link: https://github.com/ssimone175/web-components
+
+## Stencil App Starter
 
 Stencil is a compiler for building fast web apps using Web Components.
 
